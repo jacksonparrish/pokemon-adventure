@@ -35,7 +35,8 @@
   /* Almost title case */
   text-transform: capitalize;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">const audio = document.createElement("audio");
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Set up music
+const audio = document.createElement("audio");
 document.body.appendChild(audio);
 
 audio.loop = true;
@@ -50,7 +51,9 @@ function playMusic(url) {
 }
 
 window.playMusic = playMusic;
-</script><tw-tag name="chapter1" color="red"></tw-tag><tw-tag name="chapter2" color="orange"></tw-tag><tw-tag name="chapter3" color="yellow"></tw-tag><tw-passagedata pid="1" name="ash&#39;s house" tags="chapter1" position="300,25" size="100,100">&lt;div class=&quot;title&quot;&gt;Ash&#39;s House&lt;/div&gt;
+
+// Start over on reload
+sessionStorage.removeItem('Saved Session');</script><tw-tag name="chapter1" color="red"></tw-tag><tw-tag name="chapter2" color="orange"></tw-tag><tw-tag name="chapter3" color="yellow"></tw-tag><tw-passagedata pid="1" name="ash&#39;s house" tags="chapter1" position="300,25" size="100,100">&lt;div class=&quot;title&quot;&gt;Ash&#39;s House&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;Ash_house.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
 
@@ -101,7 +104,6 @@ You can go east to what appears to be a small [[cliff-&gt;cliff]], go [[west thr
 You can also see some berries on a bush that you could [[eat-&gt;silly death3]].</tw-passagedata><tw-passagedata pid="7" name="cliff" tags="chapter2" position="350,775" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
-
 (if: $HaveBunnelby is true)[
 You don&#39;t see anything interesting here.
 ](else:)[
