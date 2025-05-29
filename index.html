@@ -102,22 +102,14 @@ You can also see some berries on a bush that you could [[eat-&gt;silly death3]].
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
 (if: $HaveBunnelby is true)[
-&lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
-
 You don&#39;t see anything interesting here.
 ](else:)[
-You see a small hole and a Bunnelby sticks its head out and looks at you. You try to catch it, but disappears back into its hole.&lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
+You see a small hole and a Bunnelby sticks its head out and looks at you. You try to catch it, but disappears back into its hole.
 
-
-
-(if: $HavePikachu is not true and $HavePidgey is not true)[If only you had some other pokemon to fight it...&lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
-
-
+(if: $HavePikachu is not true and $HavePidgey is not true)[If only you had some other pokemon to fight it...
 ](else:)[
 &lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
-
 You could try to:
 
 (if: $HavePikachu is true)[[[fight it with Pikachu-&gt;fight1]]]
@@ -129,27 +121,24 @@ You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&g
 &lt;img class=&quot;heading&quot; src=&quot;forest.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
 You can see a climbable [[tree-&gt;tree]] and a thin-looking [[bush-&gt;bush]] from here.
-You can also head back to the [[hills-&gt;hills]] from here.
-</tw-passagedata><tw-passagedata pid="9" name="silly death" tags="chapter2" position="325,1400" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
+You can also head back to the [[hills-&gt;hills]] from here.</tw-passagedata><tw-passagedata pid="9" name="silly death" tags="chapter2" position="325,1400" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
-
 
 (text-style:&quot;bold&quot;,&quot;underline&quot;,&quot;outline&quot;)[What on earth made you do something so dumb?!?! You just got yourself killed!!!]
 &lt;div class=ending&gt;Ending: Mild Impulse Issues 3&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="tree" tags="chapter2" position="850,825" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
-(if: $HavePidgey is true)[&lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
+(if: $HavePidgey is true)[
 You don&#39;t see anything here.  You&#39;d better [[climb back down-&gt;forest]].
 ](else:)[
-You see a Pidgey pokemon up in the tree. &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
+You see a Pidgey pokemon up in the tree.
 
-(if: $HavePikachu is not true and $HaveBunnelby is not true)[If only you had some other pokemon to fight it...&lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
-](else:)[&lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
+(if: $HavePikachu is not true and $HaveBunnelby is not true)[If only you had some other pokemon to fight it...
+](else:)[
+&lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
 You could try to:
 
 (if: $HavePikachu is true)[[[fight it with Pikachu-&gt;fight2A]]]
@@ -161,7 +150,6 @@ You can [[climb down-&gt;forest]] from here.
 &lt;img class=&quot;heading&quot; src=&quot;bush.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
 (if: $HavePikachu is true)[
 You don&#39;t see anything interesting here.  You&#39;d better [[turn back-&gt;forest]].
 ](else:)[
@@ -172,16 +160,14 @@ You can [[leave it-&gt;leave it]] or [[help it-&gt;help]].
 &lt;img class=&quot;heading&quot; src=&quot;bush.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
 You walk away, but you begin to feel bad for it and you just can&#39;t leave it all alone like that.
 You decide to go and [[help it-&gt;help]].
 </tw-passagedata><tw-passagedata pid="13" name="help" tags="chapter2" position="1325,900" size="100,100">&lt;div class=&quot;title&quot;&gt;Bush&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;bush.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
-
 You nudge it with your pokeball, and reluctantly, it lets you catch it.
-You finaly caught your first pokemon!
+You finally caught your first pokemon!
 
 (set: $HavePikachu to true)  (text-style:&quot;bold&quot;,&quot;italic&quot;,&quot;emboss&quot;)[Achievement: first catch]
 
@@ -204,7 +190,7 @@ You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gy
 
 If you want you might have enough to [[get something at the stand-&gt;stand]].</tw-passagedata><tw-passagedata pid="16" name="pkmn cntr" tags="chapter3" position="825,1700" size="100,100">&lt;div class=&quot;title&quot;&gt;Pokemon Center&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;pokemon_center.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You step up to the counter and ask nurse Joy to heal your pokemon.
 
@@ -221,27 +207,27 @@ You can [[train-&gt;train-fight]] against Koko or you can [[exit-&gt;pewter city
 You enter Brock&#39;s gym and greet Brock.
 </tw-passagedata><tw-passagedata pid="19" name="stand" tags="chapter3" position="500,1900" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]].
 You can also purchase a [[master ball-&gt;not enough]], [[ultra ball-&gt;use all]], [[great ball-&gt; cheap]], or [[pokeball-&gt;why?]].</tw-passagedata><tw-passagedata pid="20" name="not enough" tags="chapter3" position="250,2150" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You can aford that! you can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="21" name="use all" tags="chapter3" position="550,2150" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You purchase the balls but it costs you all your money.
 You can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="22" name=" cheap" tags="chapter3" position="400,2150" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You purchase the balls. You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]].</tw-passagedata><tw-passagedata pid="23" name="why?" tags="chapter3" position="700,2150" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
+&lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-
-You already hace enough pokeballs. you can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="24" name="silly death2" tags="chapter1" position="300,250" size="100,100">&lt;div class=&quot;title&quot;&gt;Ash&#39;s House&lt;/div&gt;
+You already have enough pokeballs.  You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]].</tw-passagedata><tw-passagedata pid="24" name="silly death2" tags="chapter1" position="300,250" size="100,100">&lt;div class=&quot;title&quot;&gt;Ash&#39;s House&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;Ash_house.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;Ash_house.mp4&#39;);&lt;/script&gt;
 
@@ -257,25 +243,22 @@ Within 10 seconds, you start to feel dizzy.  Seconds after that, you fall to the
 
 &lt;div class=ending&gt;Ending: Mild Impulse Issues 2&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="fight1" tags="chapter2" position="250,925" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;fight.mp4&#39;);&lt;/script&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
+You throw your pokeball and pikachu materializes in front of you.  Bunnelby drops down into a hole.
 
-You throw your pokeball and pikachu materializes in front of you.
-Bunnelby drops down into a hole.
 You can use [[thunderbolt-&gt;loss1]], [[iron tail-&gt;loss2]], or [[quick attack-&gt;win]].</tw-passagedata><tw-passagedata pid="27" name="win" tags="chapter2" position="200,1100" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When Bunnelby pops out of its hole and attempts to use muddy water, Pikachu charges it.
-The Bunnelby faints and you catch it in your pokeball.
-
-(set:$HaveBunnelby to true)
+When Bunnelby pops out of its hole and attempts to use muddy water, Pikachu charges it.  The Bunnelby faints and you catch it in your pokeball.
 
 You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&gt;silly death]].
+
+(set:$HaveBunnelby to true)
 </tw-passagedata><tw-passagedata pid="28" name="loss1" tags="chapter2" position="150,1200" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 You try thunderbolt, but it hits the ground, which Bunnelby is safely hidden underneath.
 And because you scared it, it won&#39;t come out any more.
@@ -283,7 +266,7 @@ And because you scared it, it won&#39;t come out any more.
 You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&gt;silly death]].
 </tw-passagedata><tw-passagedata pid="29" name="loss2" tags="chapter2" position="250,1200" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 You try iron tail, but it just cut a thin hole in the ground (text-style:&quot;italic&quot;,&quot;underline&quot;,&quot;condense&quot;)[next to] Bunnelby, scaring it.
 Bunnelby won&#39;t come out any more.
@@ -303,7 +286,7 @@ You throw your pokeball, and Pikachu materializes in front of you.
 
 The pidgey readies aerial ace. You can use [[thunderbolt-&gt;win1]], [[iron tail-&gt;loss3]], or [[quick attack-&gt;loss4]].</tw-passagedata><tw-passagedata pid="32" name="loss4" tags="chapter2" position="700,1225" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 You try quick attack, but Pikachu is blown away by aerial ace. The Pidgey flies away!
 
@@ -311,14 +294,13 @@ You can [[climb down-&gt;forest]] from here.</tw-passagedata><tw-passagedata pid
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-Pidgey tries to attack, but not before Pikachu shocks it with thunderbolt.
-Pidgey faints and you catch it in your pokeball.
+Pidgey tries to attack, but not before Pikachu shocks it with thunderbolt.  Pidgey faints and you catch it in your pokeball.
 
-(set:$HavePidgey to true)
+You can [[climb down-&gt;forest]] from here.
 
-You can [[climb down-&gt;forest]] from here.</tw-passagedata><tw-passagedata pid="34" name="loss3" tags="chapter2" position="800,1225" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
+(set:$HavePidgey to true)</tw-passagedata><tw-passagedata pid="34" name="loss3" tags="chapter2" position="800,1225" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 You try iron tail, but Pikachu is blown away by aerial ace. The Pidgey flies away!
 
@@ -334,35 +316,32 @@ The Pidgey faints and you catch it in your pokeball.
 
 (set:$HavePidgey to true)</tw-passagedata><tw-passagedata pid="36" name="loss5" tags="chapter2" position="950,1225" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try earthquake, but Pidgey is off the ground, so nothing happens.
-Pidgey flies away!
+You try earthquake, but Pidgey is off the ground, so nothing happens.  Pidgey flies away!
 
 You can [[climb down-&gt;forest]] from here.</tw-passagedata><tw-passagedata pid="37" name="loss6" tags="chapter2" position="1050,1225" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try muddy waters, but Pidgey&#39;s wind blows it back into Bunnelby, so nothing happens.
-Pidgey flies away!
+You try muddy waters, but Pidgey&#39;s wind blows it back into Bunnelby, so nothing happens.  Pidgey flies away!
 
 You can [[climb down-&gt;forest]] from here.</tw-passagedata><tw-passagedata pid="38" name="fight1B" tags="chapter2" position="450,925" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
-You throw your pokeball and Pidgey materializes in front of you.
-Bunnelby drops down into a hole.
+You throw your pokeball and Pidgey materializes in front of you.  Bunnelby drops down into a hole.
+
 You can use [[aerial ace-&gt;loss7]], [[quick attack-&gt;loss8]], or [[sonic scream-&gt;win3]].</tw-passagedata><tw-passagedata pid="39" name="loss7" tags="chapter2" position="400,1200" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try aerial ace, but the wind does not reach Bunnelby, because Bunnelby is underground.
-However, the sounds scare Bunnelby, so it won&#39;t come out any more.
+You try aerial ace, but the wind does not reach Bunnelby, because Bunnelby is underground.  However, the sounds scare Bunnelby, so it won&#39;t come out any more.
 
 You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&gt;silly death]].
 </tw-passagedata><tw-passagedata pid="40" name="loss8" tags="chapter2" position="500,1200" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
-&lt;script&gt;playMusic(&#39;loss.mp4&#39;);&lt;/script&gt;
+&lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 You try quick attack, but Bunnelby dodges and scampers off.
 
@@ -371,8 +350,7 @@ You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&g
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-You try sonic scream, and because Bunnelby has sensitive ears, the sound knocks the Bunnelby out.
-You catch it in your pokeball.
+You try sonic scream, and because Bunnelby has sensitive ears, the sound knocks the Bunnelby out.  You catch it in your pokeball.
 
 You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&gt;silly death]].
 
