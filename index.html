@@ -97,7 +97,7 @@ You can go to the [[hills-&gt;hills]] from here.</tw-passagedata><tw-passagedata
 
 A bunch of hills with a gravel path going down its middle.
 (if: $PikachuFree is not true)[
-As soon as you get there, you see a small, fussy, yellow pokemon tied to a tree. It&#39;s a Pikachu!  You hurry over and cut it free, but it leaps into the bushes when you try to pick it up. (set: $PikachuFree to true)
+As soon as you get there, you see a small, fussy, yellow Pokemon tied to a tree. It&#39;s a Pikachu!  You hurry over and cut it free, but it leaps into the bushes when you try to pick it up. (set: $PikachuFree to true)
 ](if: $HavePikachu is true)[
 You can go east to what appears to be a small [[cliff-&gt;cliff]], go [[west through the bushes-&gt;forest]], or go [[north to pewter city-&gt;pewter city]]. 
 ](else:)[
@@ -111,13 +111,13 @@ You don&#39;t see anything interesting here.
 ](else:)[
 You see a small hole and a Bunnelby sticks its head out and looks at you. You try to catch it, but disappears back into its hole.
 
-(if: $HavePikachu is not true and $HavePidgey is not true)[If only you had some other pokemon to fight it...
+(if: $HavePikachu is not true and $HavePidgey is not true)[If only you had some other Pokemon to fight it...
 ](else:)[
 &lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
 You could try to:
 
 (if: $HavePikachu is true)[[[fight it with Pikachu-&gt;fight1]]]
-(if: $HavePidgey is true)[[[fight it with pidgey-&gt;fight1B]]]
+(if: $HavePidgey is true)[[[fight it with Pidgey-&gt;fight1B]]]
 ]]
 
 You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&gt;silly death]].
@@ -138,9 +138,9 @@ You can also head back to the [[hills-&gt;hills]] from here.</tw-passagedata><tw
 (if: $HavePidgey is true)[
 You don&#39;t see anything here.  You&#39;d better [[climb back down-&gt;forest]].
 ](else:)[
-You see a Pidgey pokemon up in the tree.
+You see a Pidgey Pokemon up in the tree.
 
-(if: $HavePikachu is not true and $HaveBunnelby is not true)[If only you had some other pokemon to fight it...
+(if: $HavePikachu is not true and $HaveBunnelby is not true)[If only you had some other Pokemon to fight it...
 ](else:)[
 &lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
 You could try to:
@@ -157,7 +157,7 @@ You can [[climb down-&gt;forest]] from here.
 (if: $HavePikachu is true)[
 You don&#39;t see anything interesting here.  You&#39;d better [[turn back-&gt;forest]].
 ](else:)[
-You found Pikachu! But it seems to have been attacked by another pokemon!
+You found Pikachu! But it seems to have been attacked by another Pokemon!
 
 You can [[leave it-&gt;leave it]] or [[help it-&gt;help]].
 ]</tw-passagedata><tw-passagedata pid="12" name="leave it" tags="chapter2" position="2900,1075" size="100,100">&lt;div class=&quot;title&quot;&gt;Bush&lt;/div&gt;
@@ -171,7 +171,7 @@ You decide to go and [[help it-&gt;help]].
 &lt;script&gt;playMusic(&#39;wilderness.mp4&#39;);&lt;/script&gt;
 
 You nudge it with your pokeball, and reluctantly, it lets you catch it.
-You finally caught your first pokemon!
+You finally caught your first Pokemon!
 
 (set: $HavePikachu to true)  (text-style:&quot;bold&quot;,&quot;italic&quot;,&quot;emboss&quot;)[Achievement: first catch]
 
@@ -180,7 +180,7 @@ You can go to the [[forest-&gt;forest]] from here.
 &lt;img class=&quot;heading&quot; src=&quot;pewter.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-You enter pewter city, pokemon twirl and spin and play in harmony with the people. what a nice town you think.
+You enter pewter city, Pokemon twirl and spin and play in harmony with the people. what a nice town you think.
 
 (text-style:&quot;bold&quot;,&quot;italic&quot;,&quot;emboss&quot;)[Achievement: explorer]
 
@@ -189,17 +189,17 @@ If you want, you can also [[head back-&gt;hills]] to the hills.</tw-passagedata>
 &lt;img class=&quot;heading&quot; src=&quot;pewter.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-You see a fountain covered with water type pokemon and many stands selling items.
+You see a fountain covered with water type Pokemon and many stands selling items.
 
 You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]].
 
 If you want you might have enough to [[get something at the stand-&gt;stand]].</tw-passagedata><tw-passagedata pid="16" name="pkmn cntr" tags="chapter3" position="2600,1900" size="100,100">&lt;div class=&quot;title&quot;&gt;Pokemon Center&lt;/div&gt;
-&lt;img class=&quot;heading&quot; src=&quot;pokemon_center.jpg&quot;&gt;
+&lt;img class=&quot;heading&quot; src=&quot;Pokemon_center.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-You step up to the counter and ask nurse Joy to heal your pokemon.
+You step up to the counter and ask nurse Joy to heal your Pokemon.
 
-Five minutes later, she comes back with your pokemon healed. You can [[go west to Pewter City-&gt;pewter city]] from here.</tw-passagedata><tw-passagedata pid="17" name="training" tags="chapter3" position="2900,1475" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s Training Gym&lt;/div&gt;
+Five minutes later, she comes back with your Pokemon healed. You can [[go west to Pewter City-&gt;pewter city]] from here.</tw-passagedata><tw-passagedata pid="17" name="training" tags="chapter3" position="2900,1475" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s Training Gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training_gym.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
@@ -210,22 +210,22 @@ You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]
 &lt;script&gt;playMusic(&#39;gym.mp4&#39;);&lt;/script&gt;
 
 You enter Brock&#39;s gym and greet Brock.
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
 </tw-passagedata><tw-passagedata pid="19" name="stand" tags="chapter3" position="2200,2075" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-You can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]].
+You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]].
 You can also purchase a [[master ball-&gt;not enough]], [[ultra ball-&gt;use all]], [[great ball-&gt; cheap]], or [[pokeball-&gt;why?]].</tw-passagedata><tw-passagedata pid="20" name="not enough" tags="chapter3" position="1975,2200" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
-You can aford that! you can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="21" name="use all" tags="chapter3" position="2275,2200" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
+You can aford that! you can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="21" name="use all" tags="chapter3" position="2275,2200" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
 You purchase the balls but it costs you all your money.
-You can go west to [[pewter city-&gt;pewter city]], or north to [[brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="22" name=" cheap" tags="chapter3" position="2125,2200" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
+You can go west to [[pewter city-&gt;pewter city]], or north to [[Brock&#39;s gym-&gt;brks gm]]</tw-passagedata><tw-passagedata pid="22" name=" cheap" tags="chapter3" position="2125,2200" size="100,100">&lt;div class=&quot;title&quot;&gt;ball kiosk&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;stand.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;pewter.mp4&#39;);&lt;/script&gt;
 
@@ -251,7 +251,7 @@ Within 10 seconds, you start to feel dizzy.  Seconds after that, you fall to the
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
-You throw your pokeball and pikachu materializes in front of you.  Bunnelby drops down into a hole.
+You throw your pokeball and Pikachu materializes in front of you.  Bunnelby drops down into a hole.
 
 You can use [[thunderbolt-&gt;loss1]], [[iron tail-&gt;loss2]], or [[quick attack-&gt;win]].</tw-passagedata><tw-passagedata pid="27" name="win" tags="chapter2" position="1925,1150" size="100,100">&lt;div class=&quot;title&quot;&gt;Cliff&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;cliff.jpg&quot;&gt;
@@ -284,13 +284,13 @@ You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&g
 
 You throw your pokeball, and Bunnelby materializes in front of you.
 
-The pidgey readies aerial ace.  You can use [[pop up-&gt;win2]], [[muddy water-&gt;loss6]], or [[earthquake-&gt;loss5]].</tw-passagedata><tw-passagedata pid="31" name="fight2A" tags="chapter2" position="2500,1025" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
+The Pidgey readies aerial ace.  You can use [[pop up-&gt;win2]], [[muddy water-&gt;loss6]], or [[earthquake-&gt;loss5]].</tw-passagedata><tw-passagedata pid="31" name="fight2A" tags="chapter2" position="2500,1025" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
 You throw your pokeball, and Pikachu materializes in front of you.
 
-The pidgey readies aerial ace. You can use [[thunderbolt-&gt;win1]], [[iron tail-&gt;loss3]], or [[quick attack-&gt;loss4]].</tw-passagedata><tw-passagedata pid="32" name="loss4" tags="chapter2" position="2425,1275" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
+The Pidgey readies aerial ace. You can use [[thunderbolt-&gt;win1]], [[iron tail-&gt;loss3]], or [[quick attack-&gt;loss4]].</tw-passagedata><tw-passagedata pid="32" name="loss4" tags="chapter2" position="2425,1275" size="100,100">&lt;div class=&quot;title&quot;&gt;tree&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;tree.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
@@ -364,21 +364,20 @@ You can go [[west to the hills from here-&gt;hills]], or [[jump off the cliff-&g
 &lt;h2&gt;by Jackson Parrish&lt;/h2&gt;
 
 [[Start Game-&gt;ash&#39;s house]]
-
-is your name gorglemumf? (Please be truethfull) [[yes-&gt;where]] or [[no-&gt;title page2]] </tw-passagedata><tw-passagedata pid="43" name="fight with Luxray" tags="chapter3" position="2950,2100" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s Training Gym&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="43" name="fight with Luxray" tags="chapter3" position="2950,2100" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s Training Gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
 You could try to:
 
 (if: $HavePikachu is true)[[[fight it with Pikachu-&gt;fight Pik2]]]
-(if: $HavePidgey is true)[[[fight it with pidgey-&gt;fight Pid2]]]
+(if: $HavePidgey is true)[[[fight it with Pidgey-&gt;fight Pid2]]]
 (if: $HaveBunnelby is true)[[[fight it with Bunnelby-&gt;fight B2]]]
 </tw-passagedata><tw-passagedata pid="44" name="fight Pik" tags="chapter3" position="3950,2350" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
 You throw your pokeball and Pikachu materializes in front of you.
-Heliolisk readdies thunderbolt!
+Heliolisk readies thunderbolt!
 
 You can use [[iron tail-&gt;loss 17]], [[electro ball-&gt;loss 18]], or [[plasma fists -&gt;    trainwin]].
 
@@ -389,7 +388,7 @@ You can use [[iron tail-&gt;loss 17]], [[electro ball-&gt;loss 18]], or [[plasma
 You throw your pokeball and Bunnelby materializes in front of you.
 Heliolisk readies volt tackle!
 
-You can use [[u-turn-&gt;loss 19]], [[mudy waters-&gt;loss 20]], or [[pop up-&gt;     trainwin]].</tw-passagedata><tw-passagedata pid="46" name="fight Pid" tags="chapter3" position="4675,2325" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
+You can use [[u-turn-&gt;loss 19]], [[muddy waters-&gt;loss 20]], or [[pop up-&gt;     trainwin]].</tw-passagedata><tw-passagedata pid="46" name="fight Pid" tags="chapter3" position="4675,2325" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
@@ -408,7 +407,7 @@ You can fight Koko&#39;s [[Luxray-&gt;fight with Luxray]] or his [[Heliolisk-&gt
 You could try to:
 
 (if: $HavePikachu is true)[[[fight it with Pikachu-&gt;fight Pik]]]
-(if: $HavePidgey is true)[[[fight it with pidgey-&gt;fight Pid]]]
+(if: $HavePidgey is true)[[[fight it with Pidgey-&gt;fight Pid]]]
 (if: $HaveBunnelby is true)[[[fight it with Bunnelby-&gt;fight B]]]
 </tw-passagedata><tw-passagedata pid="49" name="fight Pid2" tags="chapter3" position="3425,2350" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
@@ -425,7 +424,7 @@ You can use [[aerial ace-&gt;loss 13]], [[oblivion wing-&gt;  trainwin]], or [[s
 You throw your pokeball and Bunnelby materializes in front of you.
 Luxray readies volt tackle!
 
-You can use [[u-turn-&gt;loss 11]], [[mudy waters-&gt;trainwin]], or [[pop up-&gt; loss 12]].</tw-passagedata><tw-passagedata pid="51" name="fight Pik2" tags="chapter3" position="2675,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
+You can use [[u-turn-&gt;loss 11]], [[muddy waters-&gt;trainwin]], or [[pop up-&gt; loss 12]].</tw-passagedata><tw-passagedata pid="51" name="fight Pik2" tags="chapter3" position="2675,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
@@ -436,42 +435,44 @@ You can use [[iron tail-&gt;loss 9]], [[electro ball-&gt;loss10]], or [[wild cha
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try iron tail but Pikachu is sent flying into a wall.
+You try iron tail, but Pikachu is sent flying into a wall.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="53" name="loss10" tags="chapter3" position="2775,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try electro ball but Pikachu is sent flying into a wall by volt tackle.
+You try electro ball, but Pikachu is sent flying into a wall by volt tackle.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.</tw-passagedata><tw-passagedata pid="54" name=" trainwin" tags="chapter3" position="2575,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
-When Luxray attacks pikachu charges it knoking it down.
+When Luxray attacks, Pikachu charges it knocking it down.
 
-&quot;Hey! nice job.&quot; says Koko.
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="55" name="trainwin" tags="chapter3" position="2950,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When luxray attacks Bunnelby uses muddy waters, blinding luxray.
+When Luxray attacks, Bunnelby uses muddy waters, blinding Luxray.
+
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="56" name=" loss 12" tags="chapter3" position="3150,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try pop up but Bunnelby is snatched up by Luxray.
+You try pop up, but Bunnelby is snatched up by Luxray.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="57" name="loss 11" tags="chapter3" position="3050,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-Bunnelby tries to run but is atmediatly tackled by luxray.
+Bunnelby tries to run, but is immediately tackled by Luxray.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 
@@ -479,190 +480,197 @@ You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When luxray attacks Bunnelby uses muddy waters, blinding luxray.
+When Luxray attacks, Bunnelby uses muddy waters, blinding Luxray.
+
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="59" name="    trainwin" tags="chapter3" position="4050,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When Heliolisk attacks Pikachu uses plasma fists, stoping it dead in its tracks.
+When Heliolisk attacks, Pikachu uses plasma fists, stopping it dead in its tracks.
 
-&quot;Hey! nice job.&quot; says Koko.
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="60" name="loss 18" tags="chapter3" position="3950,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try electro ball but Pikachu is fried by thunderbolt.
+You try electro ball, but Pikachu is fried by thunderbolt.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.</tw-passagedata><tw-passagedata pid="61" name="loss 17" tags="chapter3" position="3850,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try iron tail but Pikachu is fried by thunderbolt.
+You try iron tail, but Pikachu is fried by thunderbolt.
+
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="62" name="loss 20" tags="chapter3" position="4400,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try muddy waters but Bunnelby is fried by Heliolisk.
+You try muddy waters, but Bunnelby is fried by Heliolisk.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.</tw-passagedata><tw-passagedata pid="63" name="   trainwin" tags="chapter3" position="4600,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
-When Heliolisk uses thunderbolt pidgey&#39;s sonic scream knocks it back to Clemont&#39;s feet.
+When Heliolisk uses thunderbolt, Pidgey&#39;s sonic scream knocks it back to Koko&#39;s feet.
+
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="64" name="loss 19" tags="chapter3" position="4300,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-Bunnelby tries to run but is atmediatly fried by Heliolisk.
+Bunnelby tries to run, but is immediately fried by Heliolisk.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 
-</tw-passagedata><tw-passagedata pid="65" name="brock-pidgey" tags="chapter3" position="1025,2225" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="65" name="Brock-Pidgey" tags="chapter3" position="1025,2225" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
 You throw your pokeball and Pidgey materializes in front of you.
-Gengar readdies shadow ball!
+Gengar readies shadow ball!
 
-You can use  [[oblivion wing-&gt;brock-pidgey -oblivion wing-lose]], [[sand attack -&gt;brock-pidgey- sand attack-win]], or [[sonic scream-&gt;brock-pidgey-sonic scream-lose]].</tw-passagedata><tw-passagedata pid="66" name="brock-bunnelby" tags="chapter3" position="1850,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can use  [[oblivion wing-&gt;Brock-Pidgey -oblivion wing-lose]], [[sand attack-&gt;Brock-Pidgey- sand attack-win]], or [[sonic scream-&gt;Brock-Pidgey-sonic scream-lose]].</tw-passagedata><tw-passagedata pid="66" name="Brock-Bunnelby" tags="chapter3" position="1850,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
 You throw your pokeball and Bunnelby materializes in front of you.
-Gengar readdies shadow ball!
+Gengar readies shadow ball!
 
-You can use [[earthquake-&gt;brock-bunnelby-earthquacke-win]], [[mud slap-&gt;brock-bunnelby-mud slap-lose]], or [[quick attack-&gt;brock-bunnelby-quick attack-lose]] </tw-passagedata><tw-passagedata pid="67" name="brock-pikachu" tags="chapter3" position="1475,2350" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can use [[earthquake-&gt;Brock-Bunnelby-earthquacke-win]], [[mud slap-&gt;Brock-Bunnelby-mud slap-lose]], or [[quick attack-&gt;Brock-Bunnelby-quick attack-lose]] </tw-passagedata><tw-passagedata pid="67" name="Brock-Pikachu" tags="chapter3" position="1475,2350" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;fights.mp4&#39;);&lt;/script&gt;
 
 
 You throw your pokeball and Pikachu materializes in front of you.
-Gengar readdies shadow ball!
+Gengar readies shadow ball!
 
-You can use [[plasma fists-&gt;brock-pikachu-plasma fists-lose]], [[thunderbolt-&gt;brock-pikachu-thunderbolt-lose]], or [[dark pulse-&gt;brock-pikachu-dark pulse-win]] </tw-passagedata><tw-passagedata pid="68" name="brock-pikachu-plasma fists-lose" tags="chapter3" position="1375,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can use [[plasma fists-&gt;Brock-Pikachu-plasma fists-lose]], [[thunderbolt-&gt;Brock-Pikachu-thunderbolt-lose]], or [[dark pulse-&gt;Brock-Pikachu-dark pulse-win]] </tw-passagedata><tw-passagedata pid="68" name="Brock-Pikachu-plasma fists-lose" tags="chapter3" position="1375,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try plasma fists but pikachu is bowled over by shadow ball.
+You try plasma fists, but Pikachu is bowled over by shadow ball.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
-</tw-passagedata><tw-passagedata pid="69" name="brock-pikachu-thunderbolt-lose" tags="chapter3" position="1475,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+</tw-passagedata><tw-passagedata pid="69" name="Brock-Pikachu-thunderbolt-lose" tags="chapter3" position="1475,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
 
-You try thunderbolt but Gengar is not effectted.
+You try thunderbolt, but Gengar is not affected.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
-</tw-passagedata><tw-passagedata pid="70" name="brock-bunnelby-mud slap-lose" tags="chapter3" position="1850,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+</tw-passagedata><tw-passagedata pid="70" name="Brock-Bunnelby-mud slap-lose" tags="chapter3" position="1850,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try mud slap but Bunnelby isn&#39;t fast enough and gets bowled over by shadow ball.
+You try mud slap, but Bunnelby isn&#39;t fast enough and gets bowled over by shadow ball.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
-</tw-passagedata><tw-passagedata pid="71" name="brock-bunnelby-quick attack-lose" tags="chapter3" position="1950,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+</tw-passagedata><tw-passagedata pid="71" name="Brock-Bunnelby-quick attack-lose" tags="chapter3" position="1950,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try quick attack but bunnelby is bowled over by shadow ball.
+You try quick attack, but Bunnelby is bowled over by shadow ball.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
-</tw-passagedata><tw-passagedata pid="72" name="brock-bunnelby-earthquacke-win" tags="chapter3" position="1750,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+</tw-passagedata><tw-passagedata pid="72" name="Brock-Bunnelby-earthquacke-win" tags="chapter3" position="1750,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When Gengar attacks Bunnelby uses earthquake.
+When Gengar attacks, Bunnelby uses earthquake.
 Super Effective!!!!
 
-You have finaly deffeated your first gym leader!
-And so so set of to become the worlds best pokemon trainer.
+You have finally defeated your first gym leader!
+And so you set off to become the world&#39;s best Pokemon trainer.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[[THE END-&gt; End]]]
-</tw-passagedata><tw-passagedata pid="73" name="brock-pidgey- sand attack-win" tags="chapter3" position="925,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="73" name="Brock-Pidgey- sand attack-win" tags="chapter3" position="925,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When Gengar attacks Pidgey uses sand attack. 
+When Gengar attacks, Pidgey uses sand attack. 
 Super Effective!!!!
 
-You have finaly deffeated your first gym leader!
-And so so set of to become the worlds best pokemon trainer.
+You have finally defeated your first gym leader!
+And so you set off to become the world&#39;s best Pokemon trainer.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[[THE END-&gt; End]]]
-</tw-passagedata><tw-passagedata pid="74" name="brock-pidgey-sonic scream-lose" tags="chapter3" position="1125,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="74" name="Brock-Pidgey-sonic scream-lose" tags="chapter3" position="1125,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try sonic scream but pidgey isn&#39;t fast enough and gets bowled over by shadow ball.
+You try sonic scream, but Pidgey isn&#39;t fast enough and gets bowled over by shadow ball.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
-</tw-passagedata><tw-passagedata pid="75" name="brock-pidgey -oblivion wing-lose" tags="chapter3" position="1025,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+</tw-passagedata><tw-passagedata pid="75" name="Brock-Pidgey -oblivion wing-lose" tags="chapter3" position="1025,2375" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try oblivion wing but pidgey is knocked out of the air by shadow ball.
+You try oblivion wing, but Pidgey is knocked out of the air by shadow ball.
 
-You can [[train against brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
+You can [[train against Brock-&gt;brk fight]] or you can [[exit the gym-&gt;town sqr]].
 </tw-passagedata><tw-passagedata pid="76" name="loss 13" tags="chapter3" position="3450,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try aerial ace up but pidgey is trampled by Luxray.
+You try aerial ace, but Pidgey is trampled by Luxray.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="77" name="  trainwin" tags="chapter3" position="3550,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
-When Luxray attacks pidgey&#39;s oblivion wing knocks it back to Clemont&#39;s feet.
+When Luxray attacks, Pidgey&#39;s oblivion wing knocks it back to Koko&#39;s feet.
+
+&quot;Hey! Nice job.&quot; says Koko.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="78" name=" loss 14" tags="chapter3" position="3350,2500" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try sonic scream but Luxray is not efected by it.
+You try sonic scream but Luxray is not affected by it.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="79" name=" loss 15" tags="chapter3" position="4700,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try oblivion wing but Heliolisk is not efected by it.
+You try oblivion wing, but Heliolisk is not affected by it.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="80" name=" loss 16" tags="chapter3" position="4800,2525" size="100,100">&lt;div class=&quot;title&quot;&gt;Koko&#39;s training gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;training.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;lose.mp4&#39;);&lt;/script&gt;
 
-You try aerial ace up but pidgey is shocked by Heliolisk&#39;s thunderbolt..
+You try aerial ace, but Pidgey is shocked by Heliolisk&#39;s thunderbolt.
 
 You can [[train-&gt;Lux or Hel]] against Koko or you can [[exit-&gt;pewter city]] the gym.
 </tw-passagedata><tw-passagedata pid="81" name="brk fight" tags="chapter3" position="1475,2075" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s Gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;gym.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;choose.mp4&#39;);&lt;/script&gt;
 You could...
-(if: $HavePikachu is true)[[[fight Brock&#39;s gengar with Pikachu-&gt;brock-pikachu]]]
-(if: $HavePidgey is true)[[[fight Brock&#39;s gengar with pidgey-&gt;brock-pidgey]]]
-(if: $HaveBunnelby is true)[[[fight Brock&#39;s gengar with Bunnelby-&gt;brock-bunnelby]]]
-</tw-passagedata><tw-passagedata pid="82" name="brock-pikachu-dark pulse-win" tags="chapter3" position="1575,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
+(if: $HavePikachu is true)[[[fight Brock&#39;s Gengar with Pikachu-&gt;Brock-Pikachu]]]
+(if: $HavePidgey is true)[[[fight Brock&#39;s Gengar with Pidgey-&gt;Brock-Pidgey]]]
+(if: $HaveBunnelby is true)[[[fight Brock&#39;s Gengar with Bunnelby-&gt;Brock-Bunnelby]]]
+</tw-passagedata><tw-passagedata pid="82" name="Brock-Pikachu-dark pulse-win" tags="chapter3" position="1575,2450" size="100,100">&lt;div class=&quot;title&quot;&gt;Brock&#39;s gym&lt;/div&gt;
 &lt;img class=&quot;heading&quot; src=&quot;fight.jpg&quot;&gt;
 &lt;script&gt;playMusic(&#39;win_fight.mp4&#39;);&lt;/script&gt;
 
-When Gengar attacks Pikachu uses dark pulse. 
+When Gengar attacks, Pikachu uses dark pulse. 
 Super Effective!!!!
 
-You have finaly deffeated your first gym leader!
-And so so set of to become the worlds best pokemon trainer.
+You have finally defeated your first gym leader!
+And so you set off to become the world&#39;s best Pokemon trainer.
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[[THE END-&gt; End]]]
-</tw-passagedata><tw-passagedata pid="83" name=" End" tags="chapter3" position="1225,2900" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[GOOD GAME]</tw-passagedata><tw-passagedata pid="84" name="best type attacks pokemon go" tags="pokemon-info secret" position="225,375" size="100,200">1.	Fire: incinerate| overheat
+</tw-passagedata><tw-passagedata pid="83" name=" End" tags="chapter3" position="1225,2900" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[GOOD GAME]</tw-passagedata><tw-passagedata pid="84" name="best type attacks Pokemon go" tags="pokemon-info secret" position="225,375" size="100,200">1.	Fire: incinerate| overheat
 2.	Fighting: force palm|aura sphere, focus blast
 3.	Ground: mud shot|earthpower, precipice blades
 4.	Rock: rock throw|rock recker
@@ -679,10 +687,10 @@ And so so set of to become the worlds best pokemon trainer.
 15.	Normal: quick attack| giga impact
 16.	Flying: gust | brave bird, oblivion wing, fly
 17.	Steel: bullet punch| meteor mash
-18.	Dark: snarl, chomp| dark pulse, crunch, brutal swing</tw-passagedata><tw-passagedata pid="85" name="where" tags="secret" position="175,150" size="100,100">Would you like to view [[best type attacks pokemon go-&gt;best type attacks pokemon go]] or [[best pokemon and their movesets pokemon go-&gt;best pokemon and their movestes pokemon go]] </tw-passagedata><tw-passagedata pid="86" name="title page2" tags="start" position="775,350" size="100,100">&lt;h1&gt;Pokemon Adventure&lt;/h1&gt;
+18.	Dark: snarl, chomp| dark pulse, crunch, brutal swing</tw-passagedata><tw-passagedata pid="85" name="where" tags="secret" position="175,150" size="100,100">Would you like to view [[best type attacks Pokemon go-&gt;best type attacks Pokemon go]] or [[best Pokemon and their movesets Pokemon go-&gt;best Pokemon and their movestes Pokemon go]] </tw-passagedata><tw-passagedata pid="86" name="title page2" tags="start" position="775,350" size="100,100">&lt;h1&gt;Pokemon Adventure&lt;/h1&gt;
 &lt;h2&gt;by Jackson Parrish&lt;/h2&gt;
 
-[[Start Game-&gt;ash&#39;s house]]</tw-passagedata><tw-passagedata pid="87" name="best pokemon and their movestes pokemon go" tags="pokemon-info secret" position="75,375" size="100,200">1	Zacian (Crowned Sword)	  Metal Claw	  Giga Impact	100 %
+[[Start Game-&gt;ash&#39;s house]]</tw-passagedata><tw-passagedata pid="87" name="best Pokemon and their movestes Pokemon go" tags="pokemon-info secret" position="75,375" size="100,200">1	Zacian (Crowned Sword)	  Metal Claw	  Giga Impact	100 %
 2	Deoxys (Attack Forme)	  Zen Headbutt	  Zap Cannon	98 %
 3	Thundurus (Therian Forme)	  Volt Switch	  Wildbolt Storm	97 %
 4	Blacephalon	  Incinerate	  Shadow Ball	94 %
